@@ -1,0 +1,19 @@
+The observer pattern defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
+
+The object which is being watched is called the subject. The objects which are watching the state changes are called observers or listeners.
+
+
+Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, its depenedent objects are to be notified automatically. Observer pattern falls under behavioral pattern category.
+
+Implementation
+Observer pattern uses three actor classes. Subject, Observer and Client. Subject is an object having methods to attach and detach observers to a client object. We have created an abstract class Observer and a concrete class Subject that is extending class Observer.
+
+ObserverPatternDemo, our demo class, will use Subject and concrete class object to show observer pattern in action.
+
+
+
+https://www.tutorialspoint.com/design_pattern/observer_pattern.htm
+
+http://www.baeldung.com/java-observer-pattern
+
+http://www.vogella.com/tutorials/DesignPatternObserver/article.html
